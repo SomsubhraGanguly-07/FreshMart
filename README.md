@@ -1,0 +1,2 @@
+# FreshMart
+FreshMart is a modern, user-friendly web application for seamless online grocery shopping—browse fresh produce, dairy, bakery, and more with a beautiful interface and smooth experience, built with React and Vite for speed and simplicity. ✨ Features: 🥗 Fresh products, daily deals, and best sellers • 🚚 Fast delivery and easy checkout

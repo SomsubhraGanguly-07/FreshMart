@@ -54,6 +54,21 @@ const AuthForm = () => {
       {/* Name Field (Register only) */}
       {!isLogin && (
         <div className={`flex items-center w-full ${isLogin ? 'mt-10' : 'mt-4'} bg-white border border-gray-300/80 h-12 rounded-full overflow-hidden pl-6 gap-2`}>
+
+       <svg
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM4 20C4 16.69 7.58 14 12 14C16.42 14 20 16.69 20 20H18C18 17.79 15.31 16 12 16C8.69 16 6 17.79 6 20H4Z"
+            fill="#6B7280"
+          />
+        </svg>
+
+
           <input
             type="text"
             placeholder="Full Name"
